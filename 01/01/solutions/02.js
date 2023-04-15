@@ -1,9 +1,3 @@
-/**
- * The Average of All Contiguous Subarrays
- *
- * Given an array, find the average of all contiguous subarrays of size ‘K’ in it.
- */
-
 function findAveragesOfSubarrays(K, arr) {
   const result = [];
   let windowStart = 0;
@@ -21,5 +15,3 @@ function findAveragesOfSubarrays(K, arr) {
 
   return result;
 }
-
-module.exports = findAveragesOfSubarrays;
