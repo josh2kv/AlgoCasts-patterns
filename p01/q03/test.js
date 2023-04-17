@@ -2,15 +2,15 @@ const smallestSubArrayWithGivenSum = require('./index');
 
 const SAMPLES = [
   {
-    INPUT: [7, [2, 1, 5, 2, 3, 2]],
+    INPUT: [[2, 1, 5, 2, 3, 2], 7],
     OUTPUT: 2,
   },
   {
-    INPUT: [7, [2, 1, 5, 2, 8]],
+    INPUT: [[2, 1, 5, 2, 8], 7],
     OUTPUT: 1,
   },
   {
-    INPUT: [8, [3, 4, 1, 1, 6]],
+    INPUT: [[3, 4, 1, 1, 6], 8],
     OUTPUT: 3,
   },
 ];

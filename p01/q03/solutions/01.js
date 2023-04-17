@@ -1,4 +1,4 @@
-function smallestSubArrayWithGivenSum(s, arr) {
+function smallestSubArrayWithGivenSum(arr, s) {
   let windowSum = 0,
     minLength = Infinity,
     windowStart = 0;
