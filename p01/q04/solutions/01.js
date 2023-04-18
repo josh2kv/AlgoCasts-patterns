@@ -7,7 +7,7 @@ function longestSubStringWithKDistinct(str, k) {
     const rightChar = str[windowEnd];
 
     charFrequency[rightChar] =
-      rightChar in charFrequency ? charFrequency[rightChar]++ : 1;
+      rightChar in charFrequency ? charFrequency[rightChar] + 1 : 1;
 
     while (Object.keys(charFrequency).length > k) {
       const leftChar = str[windowStart];

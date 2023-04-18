@@ -1,12 +1,15 @@
 # Coding Interview Patterns
 
+> Grokking the coding interview equivalent leetcode problems
+> <https://gist.github.com/tykurtz/3548a31f673588c05c89f9ca42067bc4>
+>
 ## 1. Pattern: Sliding Window
 
 1. [Introduction](p01/q01/)
 2. [Maximum Sum Subarray of Size K (easy)](p01/q02/)
 3. [Smallest Subarray with a given sum (easy)](p01/q03/)
-4. Longest Substring with K Distinct Characters (medium) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/YQQwQMWLx80)
-5. Fruits into Baskets (medium) [LeetCode](https://leetcode.com/problems/fruit-into-baskets/)
+4. [Longest Substring with K Distinct Characters (medium)](p01/q04/)
+5. [Fruits into Baskets (medium)](p01/q05/) [LeetCode](https://leetcode.com/problems/fruit-into-baskets/)
 6. No-repeat Substring (hard) [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 7. Longest Substring with Same Letters after Replacement (hard) [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/)
 8. Longest Subarray with Ones after Replacement (hard) [LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/)
